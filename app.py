@@ -3,7 +3,7 @@ import pandas as pd
 from xgboost import XGBClassifier
 import subprocess
 from flask import jsonify, request
-
+// sửa ở đây//
 app = Flask(__name__)
 
 MODEL_PATH = "btc_model.json"
